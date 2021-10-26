@@ -8,5 +8,10 @@ export default defineNuxtConfig({
     css: [
         'virtual:windi.css'
     ],
+    build: {
+        transpile: [
+            'majestic-ui'
+        ]
+    }
     // plugins: [{src: "~/plugins/main.js", ssr: false}]
 })
